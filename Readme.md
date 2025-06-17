@@ -1,6 +1,6 @@
-# 📊 Base de Datos - Loop
+# 📊 Base de Datos - Loop Intermodal
 
-Este repositorio contiene el esquema y los datos base para los procesos de clientes, productos y cotizaciones en Jasu Industries.
+Este repositorio contiene el esquema y los datos base para los procesos de clientes, proveedores, rutas, cotizaciones y cargos en Loop Intermodal.
 
 ## Estructura:
 - `schema/` – scripts para crear tablas
@@ -9,5 +9,5 @@ Este repositorio contiene el esquema y los datos base para los procesos de clien
 
 ## Uso
 ```bash
-psql -U postgres -d jasu_db -f schema/001_init.sql
-psql -U postgres -d jasu_db -f seed/sample_data.sql
+psql -U postgres -d loop_db -f schema/001_init.sql
+psql -U postgres -d loop_db -f seed/sample_data.sql
