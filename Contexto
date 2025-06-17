@@ -1,0 +1,10 @@
+Basede datos para Loop Intermodal
+
+Loop Intermodal es una empresa de transporte de carga internacional que ofrece soluciones integrales para envíos aéreos, terrestres y marítimos.
+
+Tablas:
+clientes_proveedores
+  - Almacena toda la informacion de los clientes y proveedores.
+
+rutas
+  - Guarda todas las rutas que ofrece un proveedor(tiene una vigencia de validez)
